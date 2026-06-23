@@ -1,3 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-outfit: var(--font-outfit);
+  --font-ovo: var(--font-ovo);
 
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001f;
+}

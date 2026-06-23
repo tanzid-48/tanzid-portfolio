@@ -1,28 +1,30 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const outfit = Outfit({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const ovo = Ovo({
   subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-ovo",
 });
-
 export const metadata = {
- title: "Tanzid | Full Stack Developer",
- description: "I'm Tanzid, a passionate Full Stack Developer specializing in React, Next.js, and MongoDB. Explore my projects and portfolio.",
+  title: "Tanzid | Full Stack Developer",
+  description:
+    "I'm Tanzid, a passionate Full Stack Developer specializing in React, Next.js, and MongoDB. Explore my projects and portfolio.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${outfit.variable} ${ovo.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
