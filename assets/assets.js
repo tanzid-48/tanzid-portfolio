@@ -43,6 +43,10 @@ import java_icon from "./java-programming-language-icon.png";
 import cpp_icon from "./c-plus-plus-programming-language-icon.png";
 import tailwind from "./tailwind-css-icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
+import desktop_icon from "./desktop-icon.svg";
+import api_icon from "./api-icon.svg";
+import service_web_icon from "./service-web-icon.png";
+import service_mobile_icon from "./service-mobile-icon.png";
 
 export const assets = {
   user_image,
@@ -90,6 +94,11 @@ export const assets = {
   java_icon,
   cpp_icon,
   tailwind,
+  desktop_icon,
+  api_icon,
+  service_web_icon,
+service_mobile_icon,
+  
 };
 
 export const workData = [
@@ -114,37 +123,37 @@ export const workData = [
     bgImage: "/work-4.png",
   },
 ];
-
 export const serviceData = [
   {
-    icon: assets.web_icon,
+    icon: assets.code_icon_dark,
     title: "Full Stack Web Development",
     description:
-      "Building complete web applications using MongoDB, Express, React and Node.js (MERN Stack).",
+      "Building complete web applications with React, Next.js, Node.js, Express, and MongoDB. Includes authentication, REST APIs, role-based access, Stripe payments, and deployment on Vercel & Render.",
     link: "",
   },
   {
-    icon: assets.mobile_icon,
+    icon:assets.service_mobile_icon,
     title: "Mobile App Development",
     description:
-      "Developing cross-platform mobile apps using Flutter and Dart with clean UI.",
+      "Developing cross-platform mobile apps using Flutter and Dart with Firebase Auth, Firestore, local notifications, charts, and clean responsive UI.",
     link: "",
   },
   {
-    icon: assets.ui_icon,
+    icon: assets.desktop_icon,
     title: "Desktop App Development",
     description:
-      "Building desktop applications with Java, JavaFX animations and C++ (EMS, OOP projects).",
+      "Building desktop applications with Java, JavaFX animations and C++ BGI graphics. Includes OOP design, MySQL integration, and academic report generation.",
     link: "",
   },
   {
-    icon: assets.graphics_icon,
+    icon: assets.api_icon,
     title: "REST API & Backend",
     description:
-      "Designing scalable REST APIs and backend systems with Node.js, Express and MongoDB.",
+      "Designing scalable REST APIs with Node.js, Express, and MongoDB. Includes JWT & BetterAuth authentication, Stripe integration, admin dashboards, and seed scripts.",
     link: "",
   },
 ];
+
 export const infoList = [
   {
     icon: assets.code_icon,

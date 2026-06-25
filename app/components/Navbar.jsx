@@ -33,7 +33,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const savedDark =
-      localStorage.theme === "light" ||
+      localStorage.theme !== "light" ||
       (!("theme" in localStorage) &&
         window.matchMedia("(prefers-color-scheme: dark)").matches);
     setIsDark(savedDark);
