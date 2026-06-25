@@ -3,28 +3,29 @@ import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
   variable: "--font-outfit",
 });
-
 const ovo = Ovo({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-ovo",
 });
+
 export const metadata = {
-  title: "Tanzid | Full Stack Developer",
+  title: "Tanzid Mondol - Full Stack Developer",
   description:
-    "I'm Tanzid, a passionate Full Stack Developer specializing in React, Next.js, and MongoDB. Explore my projects and portfolio.",
+    "Tanzid Mondol is a Full Stack Developer specializing in MERN Stack, Next.js, Java, Flutter, and modern web technologies.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${outfit.variable} ${ovo.variable} antialiased`}
-    >
-      <body>{children}</body>
+    <html lang="en">
+      <body
+        className={`${outfit.variable} ${ovo.variable} font-outfit leading-8 dark:bg-darkTheme dark:text-white`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

@@ -11,10 +11,11 @@ import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
-import logo from "./logo.png";
-import logo_dark from "./logo_dark.png";
+import logo from "./logo.svg";
+import logo_dark from "./logo_dark.svg";
 import mail_icon from "./mail_icon.png";
 import profile_img from "./profile-img.png";
+import profile_image_1 from "./profile-image_1.png";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -41,6 +42,7 @@ import flutter from "./flutter-icon.png";
 import java_icon from "./java-programming-language-icon.png";
 import cpp_icon from "./c-plus-plus-programming-language-icon.png";
 import tailwind from "./tailwind-css-icon.png";
+import mail_icon_dark from "./mail_icon_dark.png";
 
 export const assets = {
   user_image,
@@ -51,6 +53,7 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
+  mail_icon_dark,
   firebase,
   figma,
   git,
@@ -60,6 +63,7 @@ export const assets = {
   logo_dark,
   mail_icon,
   profile_img,
+  profile_image_1,
   download_icon,
   hand_icon,
   header_bg_color,
