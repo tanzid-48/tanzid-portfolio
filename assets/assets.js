@@ -104,7 +104,7 @@ export const workData = [
   {
     title: "HireLoop — Job Portal",
     description: "Full Stack",
-    bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=870&auto=format&fit=crop",
     link: "https://github.com/tanzid-48/hireloop",
     lang: ["Next.js", "Express", "MongoDB"],
   },
@@ -118,21 +118,21 @@ export const workData = [
   {
     title: "Assignment Manager",
     description: "Flutter App",
-    bgImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop",
+    bgImage: "https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=870&auto=format&fit=crop",
     link: "https://github.com/tanzid-48/assignment_manager",
     lang: ["Flutter", "Dart", "Firebase"],
   },
   {
     title: "Bangla Lang",
     description: "Web App",
-    bgImage: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop",
+    bgImage: "https://i.ibb.co.com/zTPpGqz7/3856-1.webp",
     link: "https://github.com/tanzid-48/bangla-lang",
     lang: ["React", "JavaScript"],
   },
   {
     title: "PUB EMS",
     description: "Desktop App",
-    bgImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop",
+    bgImage: "https://media.istockphoto.com/id/2247686598/photo/man-viewing-annual-business-analytics-dashboard.webp?a=1&b=1&s=612x612&w=0&k=20&c=XOj30MMwrnIzl5Trtq33pANARfgwZgfvMGbX7nEXTx0=",
     link: "https://github.com/tanzid-48/pub-ems",
     lang: ["Java", "JavaFX", "MySQL"],
   },
