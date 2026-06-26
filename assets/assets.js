@@ -97,30 +97,44 @@ export const assets = {
   desktop_icon,
   api_icon,
   service_web_icon,
-service_mobile_icon,
-  
+  service_mobile_icon,
 };
 
 export const workData = [
   {
-    title: "MERN Full Stack App",
+    title: "HireLoop — Job Portal",
     description: "Full Stack",
-    bgImage: "/work-1.png",
+    bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    link: "https://github.com/tanzid-48/hireloop",
+    lang: ["Next.js", "Express", "MongoDB"],
   },
   {
-    title: "EMS Project (C++)",
-    description: "Desktop App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "JavaFX Animation App",
-    description: "Java / JavaFX",
-    bgImage: "/work-3.png",
+    title: "LifeVault",
+    description: "Full Stack",
+    bgImage: "https://images.unsplash.com/photo-1523292217652-bf4fb04a6fb7?auto=format&fit=crop&w=900&q=80",
+    link: "https://github.com/tanzid-48/life_vault",
+    lang: ["Next.js", "Express", "MongoDB"],
   },
   {
     title: "Assignment Manager",
     description: "Flutter App",
-    bgImage: "/work-4.png",
+    bgImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop",
+    link: "https://github.com/tanzid-48/assignment_manager",
+    lang: ["Flutter", "Dart", "Firebase"],
+  },
+  {
+    title: "Bangla Lang",
+    description: "Web App",
+    bgImage: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&auto=format&fit=crop",
+    link: "https://github.com/tanzid-48/bangla-lang",
+    lang: ["React", "JavaScript"],
+  },
+  {
+    title: "PUB EMS",
+    description: "Desktop App",
+    bgImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop",
+    link: "https://github.com/tanzid-48/pub-ems",
+    lang: ["Java", "JavaFX", "MySQL"],
   },
 ];
 export const serviceData = [
@@ -132,7 +146,7 @@ export const serviceData = [
     link: "",
   },
   {
-    icon:assets.service_mobile_icon,
+    icon: assets.service_mobile_icon,
     title: "Mobile App Development",
     description:
       "Developing cross-platform mobile apps using Flutter and Dart with Firebase Auth, Firestore, local notifications, charts, and clean responsive UI.",
