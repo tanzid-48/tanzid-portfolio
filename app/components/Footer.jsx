@@ -64,7 +64,7 @@ const Footer = () => {
           <li>
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/mdtanzid-mondol-2a2456379"
+              href="https://www.linkedin.com/in/tanzid-mondol-2a2456379"
               className="font-ovo dark:text-white hover:text-gray-500 transition"
             >
               LinkedIn
