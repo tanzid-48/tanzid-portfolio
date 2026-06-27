@@ -104,35 +104,39 @@ export const workData = [
   {
     title: "HireLoop — Job Portal",
     description: "Full Stack",
-    bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=870&auto=format&fit=crop",
+    bgImage:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=870&auto=format&fit=crop",
     link: "https://github.com/tanzid-48/hireloop",
     lang: ["Next.js", "Express", "MongoDB"],
   },
   {
     title: "LifeVault",
     description: "Full Stack",
-    bgImage: "https://images.unsplash.com/photo-1523292217652-bf4fb04a6fb7?auto=format&fit=crop&w=900&q=80",
+    bgImage:
+      "https://images.unsplash.com/photo-1523292217652-bf4fb04a6fb7?auto=format&fit=crop&w=900&q=80",
     link: "https://github.com/tanzid-48/life_vault",
     lang: ["Next.js", "Express", "MongoDB"],
   },
   {
     title: "Assignment Manager",
     description: "Flutter App",
-    bgImage: "https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=870&auto=format&fit=crop",
+    bgImage:
+      "https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=870&auto=format&fit=crop",
     link: "https://github.com/tanzid-48/assignment_manager",
     lang: ["Flutter", "Dart", "Firebase"],
   },
   {
     title: "Bangla Lang",
-    description: "Web App",
+    description: "Bangla Programming Language",
     bgImage: "https://i.ibb.co.com/zTPpGqz7/3856-1.webp",
-    link: "https://github.com/tanzid-48/bangla-lang",
-    lang: ["React", "JavaScript"],
+    link: "https://tanzid-48.github.io/bangla-lang",
+    lang: ["JavaScript", "HTML", "CSS"],
   },
   {
     title: "PUB EMS",
     description: "Desktop App",
-    bgImage: "https://media.istockphoto.com/id/2247686598/photo/man-viewing-annual-business-analytics-dashboard.webp?a=1&b=1&s=612x612&w=0&k=20&c=XOj30MMwrnIzl5Trtq33pANARfgwZgfvMGbX7nEXTx0=",
+    bgImage:
+      "https://media.istockphoto.com/id/2247686598/photo/man-viewing-annual-business-analytics-dashboard.webp?a=1&b=1&s=612x612&w=0&k=20&c=XOj30MMwrnIzl5Trtq33pANARfgwZgfvMGbX7nEXTx0=",
     link: "https://github.com/tanzid-48/pub-ems",
     lang: ["Java", "JavaFX", "MySQL"],
   },
